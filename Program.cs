@@ -9,7 +9,7 @@ using( var writer = new StringWriter() )
 	Parser.Default.ParseArguments<Options>( args ).WithParsed( options =>
 	{
 		var json_deserializer_options = new JsonSerializerOptions(){ ReadCommentHandling = JsonCommentHandling.Skip };
-		var checker = JsonSerializer.Deserialize<List<Checker>>( File.ReadAllText( options.Json ), json_deserializer_options );
+		var checker = JsonSerializer.Deserialize<List<Check>>( File.ReadAllText( options.Json ), json_deserializer_options );
 
 		foreach( var check in checker )
 		{
