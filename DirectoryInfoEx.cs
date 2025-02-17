@@ -9,7 +9,7 @@ namespace RadzenBlazorUpgradeChecker
 		{
 			if( string.IsNullOrWhiteSpace( file_extensions ) ) throw new ArgumentNullException( nameof( file_extensions ) );
 			var files = dir.EnumerateFiles( "*.*", SearchOption.AllDirectories );
-			return files.Where( x => Regex.IsMatch( x.Extension, file_extensions ) );
+			return files.Where( x => Regex.IsMatch( x.Extension, file_extensions, RegexOptions.IgnoreCase ) );
 		}
 	}
 }
