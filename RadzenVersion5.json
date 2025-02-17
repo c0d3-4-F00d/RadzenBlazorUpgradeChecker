@@ -1,0 +1,838 @@
+//For a complete list see: https://blazor.radzen.com/changelog
+[
+	{
+		"TestTitle": "Checking for Dependencies...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 0,
+				"StringA": "RadzenGrid",
+				"StringB": "Dropped the obsolete RadzenGrid component"
+			},
+			{
+				"Action": 0,
+				"StringA": "bootstrap",
+				"StringB": "Dropped Bootstrap - including the Bootstrap CSS is not mandatory any more."
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Typography...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-Black.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-BlackIt.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-Bold.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-BoldIt.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-ExtraLight.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-ExtraLightIt.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-It.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-Light.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-LightIt.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-Regular.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-Semibold.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "SourceSansPro-SemiboldIt.woff",
+				"StringB": "Replaced all Source Sans Pro fonts with Source Sans 3 variable fonts."
+			},
+			{
+				"Action": 0,
+				"StringA": "roboto-v15-latin-300.woff",
+				"StringB": "Replaced all Roboto fonts with Roboto Flex variable font."
+			},
+			{
+				"Action": 0,
+				"StringA": "roboto-v15-latin-700.woff",
+				"StringB": "Replaced all Roboto fonts with Roboto Flex variable font."
+			},
+			{
+				"Action": 0,
+				"StringA": "roboto-v15-latin-regular.woff",
+				"StringB": "Replaced all Roboto fonts with Roboto Flex variable font."
+			},
+			{
+				"Action": 0,
+				"StringA": "roboto-v30-latin-300.woff",
+				"StringB": "Replaced all Roboto fonts with Roboto Flex variable font."
+			},
+			{
+				"Action": 0,
+				"StringA": "roboto-v30-latin-500.woff",
+				"StringB": "Replaced all Roboto fonts with Roboto Flex variable font."
+			},
+			{
+				"Action": 0,
+				"StringA": "roboto-v30-latin-700.woff",
+				"StringB": "Replaced all Roboto fonts with Roboto Flex variable font."
+			},
+			{
+				"Action": 0,
+				"StringA": "roboto-v30-latin-regular.woff",
+				"StringB": "Replaced all Roboto fonts with Roboto Flex variable font."
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Icons...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 0,
+				"StringA": "MaterialIcons-Regular.woff",
+				"StringB": "Replaced Material Icons font with Material Symbols variable font."
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for DataGrid...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-grid-header-filter-icon-margin",
+				"StringB": "--rz-grid-header-filter-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-grid-header-title-padding",
+				"StringB": "--rz-grid-header-title-padding-inline"
+			},
+			{
+				"Action": 1,
+
+				"StringA": "--rz-column-drag-handle-margin",
+				"StringB": "--rz-column-drag-handle-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-grid-filter-icon-margin",
+				"StringB": "--rz-grid-filter-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-grid-group-header-item-padding",
+				"StringB": "--rz-grid-group-header-item-padding-block"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-grid-group-header-item-margin",
+				"StringB": null
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-grid-group-header-items-margin",
+				"StringB": null
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for DataList...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-datalist-item-vertical-margin",
+				"StringB": "--rz-datalist-item-margin-block"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-datalist-item-horizontal-margin",
+				"StringB": "--rz-datalist-item-margin-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for DataFilter...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-datafilter-item-padding-y",
+				"StringB": "--rz-datafilter-item-padding-block"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-datafilter-item-padding-left",
+				"StringB": "--rz-datafilter-item-padding-inline-start"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Pager...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-first-button-margin",
+				"StringB": "Replaced spacing related CSS variables and updated values respectively"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-last-button-margin",
+				"StringB": "Replaced spacing related CSS variables and updated values respectively"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-dropdown-margin",
+				"StringB": "Replaced spacing related CSS variables and updated values respectively"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-numeric-button-margin",
+				"StringB": "Replaced spacing related CSS variables and updated values respectively"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-back-button-hover-color",
+				"StringB": null
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-back-button-hover-background-color",
+				"StringB": null
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-next-button-hover-color",
+				"StringB": null
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-paginator-next-button-hover-background-color",
+				"StringB": null
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Scheduler...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-scheduler-prev-next-button-padding",
+				"StringB": "--rz-scheduler-prev-next-button-padding-block and --rz-scheduler-prev-next-button-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-scheduler-today-button-margin-left",
+				"StringB": "-rz-scheduler-today-button-margin-inline-start"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-scheduler-event-padding",
+				"StringB": "--rz-scheduler-event-padding-block and --rz-scheduler-event-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-scheduler-prev-button-border-radius",
+				"StringB": "--rz-scheduler-prev-button-border-start-start-radius, --rz-scheduler-prev-button-border-start-end-radius, --rz-scheduler-prev-button-border-end-start-radius, --rz-scheduler-prev-button-border-end-end-radius"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-scheduler-next-button-border-radius",
+				"StringB": "--rz-scheduler-next-button-border-start-start-radius, --rz-scheduler-next-button-border-start-end-radius, --rz-scheduler-next-button-border-end-start-radius, --rz-scheduler-next-button-border-end-end-radius"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Tree...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-tree-node-padding",
+				"StringB": "--rz-tree-node-padding-block and --rz-tree-node-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-tree-node-margin",
+				"StringB": "--rz-tree-node-margin-block and --rz-tree-node-margin-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Dialog...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-dialog-title-padding",
+				"StringB": "--rz-dialog-title-padding-block and --rz-dialog-title-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Sidebar...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-sidebar-border-right",
+				"StringB": "--rz-sidebar-border-inline-end"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Accordion...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-accordion-item-padding",
+				"StringB": "--rz-accordion-item-padding-block and --rz-accordion-item-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-accordion-icon-margin",
+				"StringB": "--rz-accordion-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "-rz-accordion-toggle-icon-margin",
+				"StringB": "--rz-accordion-toggle-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-accordion-content-padding",
+				"StringB": "--rz-accordion-content-padding-block and --rz-accordion-content-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for ContextMenu...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-context-menu-padding",
+				"StringB": "--rz-context-menu-padding-block and --rz-context-menu-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Login...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-login-register-padding",
+				"StringB": "--rz-login-register-padding-block and --rz-login-register-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-login-register-margin",
+				"StringB": "--rz-login-register-margin-block and --rz-login-register-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-login-register-button-margin",
+				"StringB": "--rz-login-register-button-margin-block and --rz-login-register-button-margin-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Menu...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-menu-item-icon-margin",
+				"StringB": "--rz-menu-item-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-menu-item-padding",
+				"StringB": "--rz-menu-item-padding-block and --rz-menu-item-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-menu-top-item-padding",
+				"StringB": "--rz-menu-top-item-padding-block and --rz-menu-top-item-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for PanelMenu...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-color",
+				"StringB": "--rz-panel-menu-item-color"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-background-color",
+				"StringB": "--rz-panel-menu-item-background-color"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-hover-color",
+				"StringB": "--rz-panel-menu-item-hover-color"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-hover-background-color",
+				"StringB": "--rz-panel-menu-item-hover-background-color"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-padding",
+				"StringB": "--rz-panel-menu-padding-block and --rz-panel-menu-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-item-padding",
+				"StringB": "--rz-panel-menu-item-padding-block and --rz-panel-menu-item-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-item-2nd-level-padding",
+				"StringB": "--rz-panel-menu-item-2nd-level-padding-block and --rz-panel-menu-item-2nd-level-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-item-margin",
+				"StringB": "--rz-panel-menu-item-margin-block and --rz-panel-menu-item-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-item-2nd-level-margin",
+				"StringB": "--rz-panel-menu-item-2nd-level-margin-block and --rz-panel-menu-item-2nd-level-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-icon-margin",
+				"StringB": "--rz-panel-menu-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-panel-menu-icon-2nd-level-margin",
+				"StringB": "--rz-panel-menu-icon-2nd-level-margin-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for ProfileMenu...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-profile-menu-item-icon-margin",
+				"StringB": "--rz-profile-menu-item-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-profile-menu-padding",
+				"StringB": "--rz-profile-menu-padding-block and --rz-profile-menu-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Steps...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-steps-number-padding",
+				"StringB": "--rz-steps-number-padding-block and --rz-steps-number-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Tabs...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-tabs-icon-margin",
+				"StringB": "--rz-tabs-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-tabs-tab-padding",
+				"StringB": "--rz-tabs-tab-padding-block and --rz-tabs-tab-padding-inline"
+			}
+			//Breaking Updated Tab icon CSS classes <span class="rz-tabview-left-icon rzi" ... to <span class="rzi rz-tabview-icon" ....
+		]
+	},
+	{
+		"TestTitle": "Checking for CheckBox...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-checkbox-margin",
+				"StringB": "--rz-checkbox-margin-block and --rz-checkbox-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-checkbox-label-margin",
+				"StringB": "--rz-checkbox-label-margin-block and --rz-checkbox-label-margin-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for ColorPicker...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-colorpicker-item-margin",
+				"StringB": "--rz-colorpicker-item-margin is now --rz-colorpicker-items-gap"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for DatePicker...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-datepicker-header-padding",
+				"StringB": "--rz-datepicker-header-padding-block and --rz-datepicker-header-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-datepicker-calendar-padding",
+				"StringB": "--rz-datepicker-calendar-item-padding"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-timepicker-padding",
+				"StringB": "--rz-timepicker-padding-block and --rz-timepicker-padding-inline"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-datepicker-prev-next-button-border-radius",
+				"StringB": null
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-datepicker-header-line-height",
+				"StringB": null
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for DropDown...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-dropdown-trigger-icon-margin",
+				"StringB": "--rz-dropdown-trigger-icon-margin-block and --rz-dropdown-trigger-icon-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-dropdown-label-padding",
+				"StringB": "--rz-dropdown-label-padding-block and --rz-dropdown-label-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-multiselect-checkbox-margin",
+				"StringB": "--rz-multiselect-checkbox-margin-block and --rz-multiselect-checkbox-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-dropdown-chips-padding",
+				"StringB": "--rz-dropdown-chips-padding-block and --rz-dropdown-chips-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Fieldset...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-fieldset-legend-margin",
+				"StringB": "--rz-fieldset-legend-margin-block and --rz-fieldset-legend-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-fieldset-legend-padding",
+				"StringB": "--rz-fieldset-legend-padding-block and --rz-fieldset-legend-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-fieldset-toggle-margin",
+				"StringB": "--rz-fieldset-toggle-margin-block and --rz-fieldset-toggle-margin-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for FormField...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-form-field-filled-padding",
+				"StringB": "--rz-form-field-filled-padding-block and --rz-form-field-filled-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-form-field-start-end-padding",
+				"StringB": "--rz-form-field-start-end-padding-block and --rz-form-field-start-end-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-form-field-margin",
+				"StringB": "--rz-form-field-margin-block and --rz-form-field-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-form-field-filled-numeric-padding",
+				"StringB": "--rz-form-field-filled-numeric-padding-block and --rz-form-field-filled-numeric-padding-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-form-field-label-left",
+				"StringB": "--rz-form-field-label-inset-inline-start"
+			}
+		]
+	},
+	//{
+	//	"TestTitle": "Checking for HtmlEditor...",
+	//	"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+	//	"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+	//	"Rules": [
+	//		{
+	//			"Action": 1,
+	//			"StringA": "format_underline[\\\"\\'\\s]",
+	//			"StringB": "format_underlined"
+	//			//Update Changed Underline icon from format_underline to format_underlined
+	//		}
+	//	]
+	//},
+	{
+		"TestTitle": "Checking for ListBox...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-listbox-checkbox-margin",
+				"StringB": "--rz-listbox-checkbox-margin-block and --rz-listbox-checkbox-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-listbox-header-padding",
+				"StringB": "--rz-listbox-header-padding-block and --rz-listbox-header-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Numeric...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "rz-spinner-",
+				"StringB": "Breaking All CSS classes starting with .rz-spinner-* are renamed to .rz-numeric-*"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-numeric-input-padding",
+				"StringB": "--rz-numeric-input-padding-block and --rz-numeric-input-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for RadioButtonList...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-radio-label-margin",
+				"StringB": "--rz-radio-label-margin-block and --rz-radio-label-margin-inline"
+			},
+			{
+				"Action": 1,
+				"StringA": "--rz-radio-margin",
+				"StringB": "--rz-radio-margin-block and --rz-radio-margin-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for SplitButton...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 0,
+				"StringA": "--rz-splitbutton-menu-button-width",
+				"StringB": "Remove redundant CSS variables"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-splitbutton-menu-button-padding",
+				"StringB": "Remove redundant CSS variables"
+			},
+			{
+				"Action": 0,
+				"StringA": "--rz-splitbutton-menu-button-font-size",
+				"StringB": "Remove redundant CSS variables"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Switch...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-switch-circle-margin",
+				"StringB": "--rz-switch-circle-offset"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for TextArea...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-text-area-padding",
+				"StringB": "--rz-text-area-padding-block and --rz-text-area-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for TextBox...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-input-padding",
+				"StringB": "--rz-input-padding-block and --rz-input-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Chip...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "--rz-chip-padding",
+				"StringB": "--rz-chip-padding-block and --rz-chip-padding-inline"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Notification...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [
+			{
+				"Action": 1,
+				"StringA": "rz-growl-",
+				"StringB": "All CSS classes starting with .rz-growl-* are renamed to .rz-notification-*"
+			}
+		]
+	},
+	{
+		"TestTitle": "Checking for Alert...",
+		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
+		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"Rules": [ //Changed Alert icons
+			{
+				"Action": 1,
+				"StringA": "check_circle_outline",
+				"StringB": "check_circle"
+			},
+			{
+				"Action": 1,
+				"StringA": "error_outline",
+				"StringB": "error"
+			},
+			{
+				"Action": 1,
+				"StringA": "info_outline",
+				"StringB": "info"
+			},
+			{
+				"Action": 1,
+				"StringA": "lightbulb_outline",
+				"StringB": "lightbulb"
+			}
+		]
+	}
+]
