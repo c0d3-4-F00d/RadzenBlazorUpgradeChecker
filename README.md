@@ -99,8 +99,8 @@ C:\Users\c0d3-4-f00d>
 [
 	{
 		"TestTitle": "Checking for Dependencies...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp", "\\wwwroot\\css\\bootstrap", "\\wwwroot\\lib\\bootstrap" ],
 		"Rules": [
 			{
 				"Action": 0,
