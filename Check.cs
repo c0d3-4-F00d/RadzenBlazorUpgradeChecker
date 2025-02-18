@@ -20,7 +20,7 @@ namespace RadzenBlazorUpgradeChecker
 		{
 			Console.WriteLine( TestTitle );
 			var files = new DirectoryInfo( DirectoryName ).GetFilesByExtensions( FilePattern );
-			var filtered_files = files.Where( file => !IgnoreDirectories.Any( dir => file.DirectoryName.IndexOf( dir, StringComparison.OrdinalIgnoreCase ) >= 0 ) );
+			var filtered_files = files.Where( file => !IgnoreDirectories.Any( dir => file.DirectoryName.Contains( dir, StringComparison.OrdinalIgnoreCase ) ) );
 
 			foreach( var file in filtered_files )
 			{
