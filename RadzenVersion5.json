@@ -2,8 +2,8 @@
 [
 	{
 		"TestTitle": "Checking for Dependencies...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp", "\\wwwroot\\css\\bootstrap", "\\wwwroot\\lib\\bootstrap" ],
 		"Rules": [
 			{
 				"Action": 0,
@@ -19,8 +19,8 @@
 	},
 	{
 		"TestTitle": "Checking for Typography...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 0,
@@ -121,8 +121,8 @@
 	},
 	{
 		"TestTitle": "Checking for Icons...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 0,
@@ -133,8 +133,8 @@
 	},
 	{
 		"TestTitle": "Checking for DataGrid...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -176,8 +176,8 @@
 	},
 	{
 		"TestTitle": "Checking for DataList...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -193,8 +193,8 @@
 	},
 	{
 		"TestTitle": "Checking for DataFilter...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -210,8 +210,8 @@
 	},
 	{
 		"TestTitle": "Checking for Pager...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 0,
@@ -257,8 +257,8 @@
 	},
 	{
 		"TestTitle": "Checking for Scheduler...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -289,8 +289,8 @@
 	},
 	{
 		"TestTitle": "Checking for Tree...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -306,8 +306,8 @@
 	},
 	{
 		"TestTitle": "Checking for Dialog...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -318,8 +318,8 @@
 	},
 	{
 		"TestTitle": "Checking for Sidebar...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -330,8 +330,8 @@
 	},
 	{
 		"TestTitle": "Checking for Accordion...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -357,8 +357,8 @@
 	},
 	{
 		"TestTitle": "Checking for ContextMenu...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -369,8 +369,8 @@
 	},
 	{
 		"TestTitle": "Checking for Login...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -391,8 +391,8 @@
 	},
 	{
 		"TestTitle": "Checking for Menu...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -413,8 +413,8 @@
 	},
 	{
 		"TestTitle": "Checking for PanelMenu...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -475,8 +475,8 @@
 	},
 	{
 		"TestTitle": "Checking for ProfileMenu...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -492,8 +492,8 @@
 	},
 	{
 		"TestTitle": "Checking for Steps...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -504,8 +504,8 @@
 	},
 	{
 		"TestTitle": "Checking for Tabs...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -522,8 +522,8 @@
 	},
 	{
 		"TestTitle": "Checking for CheckBox...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -539,8 +539,8 @@
 	},
 	{
 		"TestTitle": "Checking for ColorPicker...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -551,8 +551,8 @@
 	},
 	{
 		"TestTitle": "Checking for DatePicker...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -583,8 +583,8 @@
 	},
 	{
 		"TestTitle": "Checking for DropDown...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -610,8 +610,8 @@
 	},
 	{
 		"TestTitle": "Checking for Fieldset...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -632,8 +632,8 @@
 	},
 	{
 		"TestTitle": "Checking for FormField...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -664,8 +664,8 @@
 	},
 	//{
 	//	"TestTitle": "Checking for HtmlEditor...",
-	//	"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-	//	"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+	//	"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+	//	"IgnoreDirectories": [ "\\PubTmp" ],
 	//	"Rules": [
 	//		{
 	//			"Action": 1,
@@ -677,8 +677,8 @@
 	//},
 	{
 		"TestTitle": "Checking for ListBox...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -694,8 +694,8 @@
 	},
 	{
 		"TestTitle": "Checking for Numeric...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -711,8 +711,8 @@
 	},
 	{
 		"TestTitle": "Checking for RadioButtonList...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -728,8 +728,8 @@
 	},
 	{
 		"TestTitle": "Checking for SplitButton...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 0,
@@ -750,8 +750,8 @@
 	},
 	{
 		"TestTitle": "Checking for Switch...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -762,8 +762,8 @@
 	},
 	{
 		"TestTitle": "Checking for TextArea...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -774,8 +774,8 @@
 	},
 	{
 		"TestTitle": "Checking for TextBox...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -786,8 +786,8 @@
 	},
 	{
 		"TestTitle": "Checking for Chip...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -798,8 +798,8 @@
 	},
 	{
 		"TestTitle": "Checking for Notification...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
 		"Rules": [
 			{
 				"Action": 1,
@@ -810,9 +810,9 @@
 	},
 	{
 		"TestTitle": "Checking for Alert...",
-		"FilePattern": "(\\.html|\\.cshtml|\\.css|\\.scss|\\.less|\\.razor)$",
-		"IgnoreDirectories": [ "\\PubTmp\\", "\\wwwroot\\css\\bootstrap\\", "\\wwwroot\\lib\\bootstrap\\" ],
-		"Rules": [ //Changed Alert icons
+		"FilePattern": "\\.(html|cshtml|css|scss|less|razor|ts|js)$",
+		"IgnoreDirectories": [ "\\PubTmp" ],
+		"Rules": [
 			{
 				"Action": 1,
 				"StringA": "check_circle_outline",
